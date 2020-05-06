@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void fetchData()
     {
-        String url = "https://corona.lmao.ninja/v2/all";
+        String url = "https://corona.lmao.ninja/v2/all/";
 
         Arcloader.start();
 
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void goTrackCountries(View view)
     {
-        Intent intent = new Intent(MainActivity.this,CountryActivity.class);
+        Intent intent = new Intent(getApplicationContext(),CountryActivity.class);
         startActivity(intent);
 
     }
