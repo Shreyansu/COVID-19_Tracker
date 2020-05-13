@@ -130,7 +130,7 @@
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:layout_below="@+id/cardViewGraph"
-        android:layout_above="@+id/btn_track"
+        
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:id="@+id/cc"
@@ -558,21 +558,7 @@
 
     </androidx.cardview.widget.CardView>
 
-    <Button
-        android:id="@+id/btn_track_india"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="8dp"
-        android:background="@color/color_one"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:text="Track District"
 
-        android:textSize="16sp"
-        android:padding="5dp"
-        android:onClick="goTrackDistrict"/>
 
 
 

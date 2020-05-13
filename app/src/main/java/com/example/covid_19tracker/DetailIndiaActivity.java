@@ -79,6 +79,7 @@ public class DetailIndiaActivity extends AppCompatActivity
 
     }
 
+
     public void goTrackDistrict(View view)
     {
         Intent district = new Intent(getApplicationContext(),DistrictActivity.class);
